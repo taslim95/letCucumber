@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.431" tests="3" skipped="0" failures="3" errors="0">
+<testcase classname="Bookcart Application tests" name="Add to cart - #1.1" time="0.027">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to the Bookcart application login.......................undefined
+And click on login option...................................................skipped
+And user login into the application with "ortoni" and "pass1234"............skipped
+And user search for a "Roomies".............................................skipped
+When user add the book to the cart..........................................skipped
+Then the cart badge should get updated......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart Application tests" name="Add to cart - #1.2" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to the Bookcart application login.......................undefined
+And click on login option...................................................skipped
+And user login into the application with "ortonikc" and "pass1234"..........skipped
+And user search for a "The Simple Wild".....................................skipped
+When user add the book to the cart..........................................skipped
+Then the cart badge should get updated......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart Application tests" name="Login should not be success #negative Scenario--2" time="0.019">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to the Bookcart application.............................undefined
+And User clicks on the login button.........................................skipped
+And user enter the username as "taslim".....................................skipped
+And user enter the password as "wrongpassword"..............................skipped
+When user click on the login button.........................................skipped
+But Login should fail.......................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
